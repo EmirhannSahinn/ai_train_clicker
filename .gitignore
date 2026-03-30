@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (optional - uncomment if you don't want to track data)
+# data/input/*.json
+# data/output/*.csv
+
+# Old timestamped files
+*_16092025_0900.py
+.env
+__pycache__/
+.venv/
+outputs/
+tests/
+
+# Claude agents & skills (local dev only)
+.claude/agents/majority-vote-designer.md
+.claude/agents/doc-updater.md
+.claude/skills/add-majority-vote/
+.claude/skills/update-docs/
