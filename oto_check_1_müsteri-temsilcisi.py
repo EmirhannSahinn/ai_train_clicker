@@ -22,7 +22,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # ================== AYARLAR ==================
 # Filtre metinleri
 VALUE1 = "canlı destek"   # adım 5
-VALUE2 = "canlı destek"     # adım 8 (istersen değiştir)
+VALUE2 = "müşteri temsilcisi"     # adım 8 (istersen değiştir)
 
 # Sayıların okunduğu CSS seçici (senin sayfanda çalışan seçici)
 CSS_SELECTOR = ".msgLength.translate"  # gerekirse ".msgLength.translate strong"
@@ -34,7 +34,7 @@ POS_3_CLICK            = (1602, 444)    # 6: sol tık
 POS_4_FIELD            = (1544, 429)    # 7-8: sol tık + VALUE2 yaz
 POS_5_CLICK            = (1613, 475)    # 9: sol tık
 POS_DOUBLECLICK        = (1040, 754)    # 13-14: çift tıklanacak yer (ekran dışı olabilir!)
-POS_SINGLE_AFTER_101   = (1518, 262)    # 14: tek tık (ekran dışı olabilir!)
+POS_SINGLE_AFTER_101   = (1479, 262)    # 14: tek tık (ekran dışı olabilir!)
 
 # Hız / bekleme (güncel değerler)
 MOVE_DURATION = 0.35            # fare hareket süresi (eski: 0.2)
